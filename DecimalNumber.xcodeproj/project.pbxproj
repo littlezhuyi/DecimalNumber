@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		25A9F99A25EFB85F00B26CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F99925EFB85F00B26CBA /* AppDelegate.m */; };
-		25A9F99D25EFB85F00B26CBA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F99C25EFB85F00B26CBA /* SceneDelegate.m */; };
 		25A9F9A025EFB85F00B26CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F99F25EFB85F00B26CBA /* ViewController.m */; };
 		25A9F9A325EFB85F00B26CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A9F9A125EFB85F00B26CBA /* Main.storyboard */; };
 		25A9F9A525EFB86300B26CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A9F9A425EFB86300B26CBA /* Assets.xcassets */; };
 		25A9F9A825EFB86300B26CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A9F9A625EFB86300B26CBA /* LaunchScreen.storyboard */; };
 		25A9F9AB25EFB86300B26CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F9AA25EFB86300B26CBA /* main.m */; };
+		25A9F9B625EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9F9B425EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25A9F99525EFB85F00B26CBA /* DecimalNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A9F99825EFB85F00B26CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25A9F99925EFB85F00B26CBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25A9F99B25EFB85F00B26CBA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		25A9F99C25EFB85F00B26CBA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		25A9F99E25EFB85F00B26CBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25A9F99F25EFB85F00B26CBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25A9F9A225EFB85F00B26CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +27,8 @@
 		25A9F9A725EFB86300B26CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25A9F9A925EFB86300B26CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25A9F9AA25EFB86300B26CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A9F9B425EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+YQQAdd.m"; sourceTree = "<group>"; };
+		25A9F9B525EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+YQQAdd.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +63,10 @@
 			children = (
 				25A9F99825EFB85F00B26CBA /* AppDelegate.h */,
 				25A9F99925EFB85F00B26CBA /* AppDelegate.m */,
-				25A9F99B25EFB85F00B26CBA /* SceneDelegate.h */,
-				25A9F99C25EFB85F00B26CBA /* SceneDelegate.m */,
 				25A9F99E25EFB85F00B26CBA /* ViewController.h */,
 				25A9F99F25EFB85F00B26CBA /* ViewController.m */,
+				25A9F9B525EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.h */,
+				25A9F9B425EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.m */,
 				25A9F9A125EFB85F00B26CBA /* Main.storyboard */,
 				25A9F9A425EFB86300B26CBA /* Assets.xcassets */,
 				25A9F9A625EFB86300B26CBA /* LaunchScreen.storyboard */,
@@ -148,7 +148,7 @@
 				25A9F9A025EFB85F00B26CBA /* ViewController.m in Sources */,
 				25A9F99A25EFB85F00B26CBA /* AppDelegate.m in Sources */,
 				25A9F9AB25EFB86300B26CBA /* main.m in Sources */,
-				25A9F99D25EFB85F00B26CBA /* SceneDelegate.m in Sources */,
+				25A9F9B625EFB8F000B26CBA /* NSDecimalNumber+YQQAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W43WD399J7;
 				INFOPLIST_FILE = DecimalNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W43WD399J7;
 				INFOPLIST_FILE = DecimalNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
